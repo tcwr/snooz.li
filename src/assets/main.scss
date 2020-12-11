@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+
+@import './node_modules/bootstrap/scss/bootstrap.scss';
+@import './node_modules/bootstrap-vue/src/index.scss';
+
+// Set your brand colors
+$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+
+
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito",
+sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $pink;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Import only what you need from Bulma
+/*@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/components/card.sass";
+@import "../node_modules/bulma/sass/components/media.sass";
+@import "../node_modules/bulma/sass/elements/box.sass";
+@import "../node_modules/bulma/sass/elements/image.sass";
+@import "../node_modules/bulma/sass/elements/icon.sass";
+
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";*/
+
+
+.header-box {
+    //background-image: linear-gradient(45deg, #6303B1, #ff0099);
+    transform: skewY(-5deg);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: #373B44;
+    position: relative;
+}
+
+ .content-header {
+     max-width: 50em;
+     margin: 0 auto;
+     position: relative;
+     font-family: 'Roboto',
+         sans-serif !important;
+     font-weight: 900 !important;
+     line-height: 1.4 !important;
+
+ }
+
+ body {
+     font-family: 'Roboto',
+         sans-serif;
+     background-color: #373B44;
+
+ }
+
+ .headline {
+     font-family: 'Roboto', sans-serif !important;
+     font-weight: 900 !important;
+     line-height: 1.4 !important;
+     font-size: 1.4rem;
+ }
+
+ .header-box {
+     //background-image: linear-gradient(45deg, #6303B1, #ff0099);
+     transform: skewY(-5deg);
+     color: #fff;
+     text-transform: uppercase;
+     font-weight: 900;
+     background-color: #03106e;
+     position: relative;
+ }
+
+ .nav-box {
+     transform: skewY(-5deg);
+     color: #fff;
+     text-transform: uppercase;
+     font-weight: 900;
+     //background-color: #000;
+     position: relative;
+ }
+
+ .content-header {
+     max-width: 50em;
+     margin: 0 auto;
+     position: relative;
+     font-family: 'Roboto',
+         sans-serif !important;
+     font-weight: 900 !important;
+     line-height: 1.4 !important;
+
+ }
+
+ .content {
+     //margin-top:-2em;
+     padding-top: 4em;
+     padding-bottom: 6em;
+        margin: 2rem auto;
+
+
+     max-width: 50em;
+     //margin: 0 auto;
+     position: relative;
+     font-family: 'Roboto',
+         sans-serif !important;
+     font-weight: 900 !important;
+     line-height: 1.4 !important;
+     transform: skewY(5deg);
+
+ }
+
+ .btn {
+     border-radius: 0;
+
+ }
+
+ .bg-violet {
+     background-image: linear-gradient(45deg, #6303B1, #ff0099);
+
+
+ }
+
+ .bg-white {
+     color: #03106e;
+     background-color: #fff;
+
+ }
+
+ .custom-range {
+    width: 50%;
+
+ }
+
+ .center{
+text-align:center;
+
+
+ }
